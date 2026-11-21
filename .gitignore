@@ -1,0 +1,38 @@
+# --- Private / course material: never push ---
+reference/          # Imperial lecture pack (copyright) — local reference only
+solutions/          # instructor solution notebooks — private reference only
+
+# --- Data (fetched at runtime, not committed) ---
+data/*
+!data/README.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Model artefacts / large files ---
+*.pt
+*.pth
+*.h5
+*.keras
+*.ckpt
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# Private / copyrighted course material — never commit
+Lectures_*.pdf
+reference/
+solutions/
+systematic_summer_school/
+notebooks/*.png

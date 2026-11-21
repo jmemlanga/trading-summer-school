@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+
+# Data sources
+yfinance>=0.2.40
+pandas-datareader>=0.10
+
+# Classical ML / stats
+scikit-learn>=1.4
+statsmodels>=0.14
+
+# Deep learning (notebooks 02 and 04)
+torch>=2.2          # RNN return forecasting (notebook 02)
+tensorflow>=2.15    # Keras LOB classifier (notebook 04)
+
+# Notebook tooling
+jupyterlab>=4.0
+ipykernel>=6.29
